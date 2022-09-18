@@ -1,0 +1,19 @@
+{
+    "name": "heddy/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Heddy Cahya Firdaus",
+            "email": "heddycf1998@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Heddy\\Belajar\\": "src/"
+        }
+    }
+}
